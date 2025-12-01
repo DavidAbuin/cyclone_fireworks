@@ -3,6 +3,7 @@ pub mod precision;
 pub mod core;
 pub mod particle;
 pub mod random;
+pub mod fireworks;
 //pub mod body;
 //pub mod pcontacts;
 //pub mod pworld;

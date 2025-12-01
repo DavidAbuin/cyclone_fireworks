@@ -10,6 +10,7 @@ use crate::core::Vector3;
 use crate::precision::Real;
 
 
+
 // This is translation of Millington's cyclone::Random
 // Keeps track of one random stream (seed & current), so we can have multiple independent,
 //      repeatable streams.
@@ -132,7 +133,7 @@ impl Random {
     }
 
     // Returns a random integer in [0, max).
-    pub fn random_in(&mut self, max: u32) -> u32 {
+    pub fn random_int(&mut self, max: u32) -> u32 {
         self.random_bits() % max
     }
 
